@@ -7,17 +7,17 @@ import {
   faArrowRightLong,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Navbar = () => {
+const Navbar2 = () => {
   return (
     <div className="w-full flex justify-center h-auto sticky z-30 shadow-xl bg-color-primary">
-      <div className="navbar w-11/12 justify-between">
+      <div className="navbar  w-full">
         <Link href={`/`} className="flex-1 ">
           <Image
             src={Rem}
             width={100}
             height={100}
             alt="rem"
-            className="aspect-8 h-16 w-14  btn btn-ghost p-2   rounded-xl ms-10"
+            className="aspect-8 h-16 w-14  btn btn-ghost p-2  ms-5 rounded-xl "
           />
         </Link>
         <div className="flex-none flex justify-between ">
@@ -32,13 +32,13 @@ const Navbar = () => {
               <Link className="menuActive hover:text-color-dark  " href="#">
                 About
               </Link>
-              <Link className="menuActive hover:text-color-dark " href="/Login">
-                Login
+              <Link className="menuActive hover:text-color-dark " href="/Upload">
+                Upload
               </Link>
-              <Link className="menuActive hover:text-color-dark " href="/Register">
-                Register Form
+              <Link className="menuActive hover:text-color-dark " href="/Users">
+                Lengkapi Data 
               </Link>
-              <Link className="menuActive hover:text-color-dark " href="#">
+              <Link className="menuActive hover:text-color-dark " href="/Help">
                 Help
               </Link>
               <div className="animationss start-home"></div>
@@ -89,4 +89,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar2;

@@ -2,7 +2,6 @@
 
 import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { data } from "autoprefixer";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -59,7 +58,7 @@ const VisiMision = () => {
             {DataImg.slice(0,3).map((cb, index)=>{
               return(
                 <button key={index} onClick={()=>currentChampion(index)} className="cursor-pointer" >
-                  <Image height={1000} width={1000}  className="h-20 w-20  max-[360px]:h-16 max-[360px]:w-16 rounded-lg bg-color-primary" src={`/${cb.img_url}.jpg`} alt={`${cb.img_url} NA`} />
+                  <Image height={1000} width={1000}  className="h-20 w-20  max-[360px]:h-16 max-[360px]:w-16 rounded-lg bg-color-primary"  alt={`${cb.img_url} NA`} />
                 </button>
               )
             })}
