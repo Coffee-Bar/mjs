@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -34,3 +35,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+=======
+### Example user template template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+/.next
+/node_modules
+>>>>>>> 0620e6f87f2fed106f7542a35976579c8749550c
